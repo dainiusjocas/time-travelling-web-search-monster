@@ -1,5 +1,9 @@
 # time-traveling-web-search-monster
 
+A semi real-world example on how the (Beagle)[https://github.com/tokenmill/beagle] library can be used.
+
+Intended use is for searching in the news websites, such as `https://www.bbc.com/` because the content extraction is optimized for exactly such content.
+
 Example query:
 ```clojure
 (->> (monster.core/search "delfi.lt" "2019-06-01" "2019-10-01" monster.dict/mps)
