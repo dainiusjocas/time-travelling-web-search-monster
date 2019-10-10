@@ -1,5 +1,6 @@
 (ns monster.dict)
 
+; source https://lt.wikipedia.org/wiki/2016%E2%80%932020_m._Seimas
 (def mps
   [{:text "Vida Ačienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
    {:text "Mantas Adomėnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
