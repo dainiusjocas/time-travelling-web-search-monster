@@ -2,7 +2,7 @@
 
 A semi real-world example on how the [Beagle](https://github.com/tokenmill/beagle) library can be used.
 
-Intended use is for searching in the news websites, such as `https://www.bbc.com/` because the content extraction is optimized for exactly such content.
+Intended use is for searching in the news websites, such as `https://www.bbc.com/`.
 
 Example query:
 ```clojure
