@@ -2,13 +2,13 @@
 
 Example query:
 ```clojure
-(clojure.pprint/pprint
-  (remove (fn [article] (empty? (:highlights article)))
-          (mapcat #(map (fn [article] (select-keys article [:url :highlights])) %)
-                  (monster.core/search "delfi.lt" "2019-06-01" "2019-10-01" monster.dict/mps))))
+(->> (monster.core/search "delfi.lt" "2019-06-01" "2019-10-01" monster.dict/mps)
+     (mapcat #(map (fn [article] (select-keys article [:url :highlights])) %))
+     (remove (fn [article] (empty? (:highlights article))))
+     (clojure.pprint/pprint))
 ```
 
-This would result in:
+This would result in similar list of annotations:
 ```clojure
 [{:url
   "https://www.delfi.lt/m360/eksperto-zvilgsnis/skaitmenines-diplomatijos-ekspertas-kaip-socialiniai-tinklai-pakeite-pasaulio-lyderiu-komunikacija.d?id=81559725",
