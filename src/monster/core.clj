@@ -63,7 +63,10 @@
 
 ; E.g. (monster.core/search "delfi.lt" "2019-06-01" "2019-10-01" monster.dict/mps)
 (defn search [host start end dictionary]
-  (let [highlighter-fn (phrases/highlighter dictionary)
+  (let [highlighter-fn (phrases/highlighter dictionary {:case-sensitive? false
+                                                        :ascii-fold? true
+                                                        :stem? true
+                                                        :stemmer :lithuanian})
         cdx-api-urls (filter-cdx-api-urls start end)]
     (map #(match host % highlighter-fn) cdx-api-urls)))
 

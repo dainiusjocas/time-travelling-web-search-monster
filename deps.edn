@@ -1,6 +1,6 @@
 {:paths ["src"]
  :deps  {org.clojure/clojure             {:mvn/version "1.10.1"}
          lt.tokenmill/common-crawl-utils {:mvn/version "0.1.0"}
-         lt.tokenmill/beagle             {:mvn/version "0.3.1"}
+         lt.tokenmill/beagle             {:mvn/version "0.4.0"}
          com.chimbori.crux/crux          {:mvn/version "2.2.0"}
          lt.tokenmill/timewords          {:mvn/version "0.5.0"}}}

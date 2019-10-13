@@ -2,144 +2,144 @@
 
 ; source https://lt.wikipedia.org/wiki/2016%E2%80%932020_m._Seimas
 (def mps
-  [{:text "Vida Ačienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Mantas Adomėnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Virgilijus Alekna", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rimas Andrikis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Arvydas Anušauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Aušrinė Armonaitė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Audronius Ažubalis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Valius Ąžuolas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Bacvinka", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vytautas Bakas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Linas Balsys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Bartkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Mindaugas Bastys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rima Baškienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Juozas Baublys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Juozas Bernatonis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Agnė Bilotaitė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rasa Budbergytė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Valentinas Bukauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Guoda Burokienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Algirdas Butkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Petras Čimbaras", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Viktorija Čmilytė-Nielsen", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rimantas Jonas Dagys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Irena Degutienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Algimantas Dumbrava", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Justas Džiugelis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Aurimas Gaidžiūnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vitalijus Gailius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Dainius Gaižauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Arūnas Gelūnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Eugenijus Gentvilas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Simonas Gentvilas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Glaveckas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Petras Gražulis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Arūnas Gumuliauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Juozas Imbrasas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Stasys Jakeliūnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Jonas Jarutis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Zbignev Jedinskij", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Sergejus Jovaiša", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Eugenijus Jovaiša", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rasa Juknevičienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vytautas Juozapaitis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Ričardas Juška", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vytautas Kamblevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Darius Kaminskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Ramūnas Karbauskis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Laurynas Kasčiūnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Dainius Kepenis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vytautas Kernagis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Greta Kildišienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gintautas Kindurys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gediminas Kirkilas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Algimantas Kirkutis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vanda Kravčionok", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Dainius Kreivys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Asta Kubilienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Andrius Kubilius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gabrielius Landsbergis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Tadas Langaitis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Jonas Liesys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Linas Antanas Linkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Michal Mackevič", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Mykolas Majauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Aušra Maldeikienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Bronius Markauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Raimundas Martinėlis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Masiulis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Bronislovas Matelis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Laimutė Matkevičienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Antanas Matulas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Mažeika", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rūta Miliūtė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Radvilė Morkūnaitė-Mikulėnienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Jaroslav Narkevič", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Alfredas Stasys Nausėda", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Monika Navickienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Arvydas Nekrošius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Petras Nevulis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Aušrinė Norkienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Juozas Olekas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Česlav Olševski", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Andrius Palionis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Aušra Papirtienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Žygimantas Pavilionis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Virgilijus Poderys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Raminta Popovienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Viktoras Pranckietis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Mindaugas Puidokas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Pūkas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Edmundas Pupinis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Naglis Puteikis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Vytautas Rastenis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Jurgis Razma", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Juozas Rimkus", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Viktoras Rinkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Irina Rozova", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Julius Sabatauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Algimantas Salamakinas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Paulius Saudargas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Valerijus Simulik", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Virginijus Sinkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rimantas Sinkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Algirdas Sysas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gintarė Skaistė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Artūras Skardžius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Saulius Skvernelis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kęstutis Smirnovas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Lauras Stacevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Andriejus Stančikas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Levutė Staniuvienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Kazys Starkevičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gintaras Steponavičius", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Zenonas Streikus", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Algis Strelčiūnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Dovilė Šakalienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rimantė Šalaševičiūtė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Robertas Šarknickas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Stasys Šedbaras", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Irena Šiaulienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Audrys Šimas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Ingrida Šimonytė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Agnė Širinskienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Leonard Talmont", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rita Tamašunienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Tomas Tomilinas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Stasys Tumėnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Povilas Urbšys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gintaras Vaičekauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Petras Valiūnas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Egidijus Vareikis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Jonas Varkalys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Juozas Varžgalys", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Gediminas Vasiliauskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Aurelijus Veryga", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Virginija Vingrienė", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Antanas Vinkus", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Emanuelis Zingeris", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Remigijus Žemaitaitis", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}
-   {:text "Rokas Žilinskas", :case-sensitive? false, :ascii-fold? true, :stem? true, :stemmer :lithuanian}])
+  [{:text "Agnė Bilotaitė"}
+   {:text "Agnė Širinskienė"}
+   {:text "Alfredas Stasys Nausėda"}
+   {:text "Algimantas Dumbrava"}
+   {:text "Algimantas Kirkutis"}
+   {:text "Algimantas Salamakinas"}
+   {:text "Algirdas Butkevičius"}
+   {:text "Algirdas Sysas"}
+   {:text "Algis Strelčiūnas"}
+   {:text "Andriejus Stančikas"}
+   {:text "Andrius Kubilius"}
+   {:text "Andrius Palionis"}
+   {:text "Antanas Matulas"}
+   {:text "Antanas Vinkus"}
+   {:text "Artūras Skardžius"}
+   {:text "Arvydas Anušauskas"}
+   {:text "Arvydas Nekrošius"}
+   {:text "Arūnas Gelūnas"}
+   {:text "Arūnas Gumuliauskas"}
+   {:text "Asta Kubilienė"}
+   {:text "Audronius Ažubalis"}
+   {:text "Audrys Šimas"}
+   {:text "Aurelijus Veryga"}
+   {:text "Aurimas Gaidžiūnas"}
+   {:text "Aušra Maldeikienė"}
+   {:text "Aušra Papirtienė"}
+   {:text "Aušrinė Armonaitė"}
+   {:text "Aušrinė Norkienė"}
+   {:text "Bronislovas Matelis"}
+   {:text "Bronius Markauskas"}
+   {:text "Dainius Gaižauskas"}
+   {:text "Dainius Kepenis"}
+   {:text "Dainius Kreivys"}
+   {:text "Darius Kaminskas"}
+   {:text "Dovilė Šakalienė"}
+   {:text "Edmundas Pupinis"}
+   {:text "Egidijus Vareikis"}
+   {:text "Emanuelis Zingeris"}
+   {:text "Eugenijus Gentvilas"}
+   {:text "Eugenijus Jovaiša"}
+   {:text "Gabrielius Landsbergis"}
+   {:text "Gediminas Kirkilas"}
+   {:text "Gediminas Vasiliauskas"}
+   {:text "Gintaras Steponavičius"}
+   {:text "Gintaras Vaičekauskas"}
+   {:text "Gintarė Skaistė"}
+   {:text "Gintautas Kindurys"}
+   {:text "Greta Kildišienė"}
+   {:text "Guoda Burokienė"}
+   {:text "Ingrida Šimonytė"}
+   {:text "Irena Degutienė"}
+   {:text "Irena Šiaulienė"}
+   {:text "Irina Rozova"}
+   {:text "Jaroslav Narkevič"}
+   {:text "Jonas Jarutis"}
+   {:text "Jonas Liesys"}
+   {:text "Jonas Varkalys"}
+   {:text "Julius Sabatauskas"}
+   {:text "Juozas Baublys"}
+   {:text "Juozas Bernatonis"}
+   {:text "Juozas Imbrasas"}
+   {:text "Juozas Olekas"}
+   {:text "Juozas Rimkus"}
+   {:text "Juozas Varžgalys"}
+   {:text "Jurgis Razma"}
+   {:text "Justas Džiugelis"}
+   {:text "Kazys Starkevičius"}
+   {:text "Kęstutis Bacvinka"}
+   {:text "Kęstutis Bartkevičius"}
+   {:text "Kęstutis Glaveckas"}
+   {:text "Kęstutis Masiulis"}
+   {:text "Kęstutis Mažeika"}
+   {:text "Kęstutis Pūkas"}
+   {:text "Kęstutis Smirnovas"}
+   {:text "Laimutė Matkevičienė"}
+   {:text "Lauras Stacevičius"}
+   {:text "Laurynas Kasčiūnas"}
+   {:text "Leonard Talmont"}
+   {:text "Levutė Staniuvienė"}
+   {:text "Linas Antanas Linkevičius"}
+   {:text "Linas Balsys"}
+   {:text "Mantas Adomėnas"}
+   {:text "Michal Mackevič"}
+   {:text "Mindaugas Bastys"}
+   {:text "Mindaugas Puidokas"}
+   {:text "Monika Navickienė"}
+   {:text "Mykolas Majauskas"}
+   {:text "Naglis Puteikis"}
+   {:text "Paulius Saudargas"}
+   {:text "Petras Gražulis"}
+   {:text "Petras Nevulis"}
+   {:text "Petras Valiūnas"}
+   {:text "Petras Čimbaras"}
+   {:text "Povilas Urbšys"}
+   {:text "Radvilė Morkūnaitė-Mikulėnienė"}
+   {:text "Raimundas Martinėlis"}
+   {:text "Raminta Popovienė"}
+   {:text "Ramūnas Karbauskis"}
+   {:text "Rasa Budbergytė"}
+   {:text "Rasa Juknevičienė"}
+   {:text "Remigijus Žemaitaitis"}
+   {:text "Rima Baškienė"}
+   {:text "Rimantas Jonas Dagys"}
+   {:text "Rimantas Sinkevičius"}
+   {:text "Rimantė Šalaševičiūtė"}
+   {:text "Rimas Andrikis"}
+   {:text "Rita Tamašunienė"}
+   {:text "Ričardas Juška"}
+   {:text "Robertas Šarknickas"}
+   {:text "Rokas Žilinskas"}
+   {:text "Rūta Miliūtė"}
+   {:text "Saulius Skvernelis"}
+   {:text "Sergejus Jovaiša"}
+   {:text "Simonas Gentvilas"}
+   {:text "Stasys Jakeliūnas"}
+   {:text "Stasys Tumėnas"}
+   {:text "Stasys Šedbaras"}
+   {:text "Tadas Langaitis"}
+   {:text "Tomas Tomilinas"}
+   {:text "Valentinas Bukauskas"}
+   {:text "Valerijus Simulik"}
+   {:text "Valius Ąžuolas"}
+   {:text "Vanda Kravčionok"}
+   {:text "Vida Ačienė"}
+   {:text "Viktoras Pranckietis"}
+   {:text "Viktoras Rinkevičius"}
+   {:text "Viktorija Čmilytė-Nielsen"}
+   {:text "Virgilijus Alekna"}
+   {:text "Virgilijus Poderys"}
+   {:text "Virginija Vingrienė"}
+   {:text "Virginijus Sinkevičius"}
+   {:text "Vitalijus Gailius"}
+   {:text "Vytautas Bakas"}
+   {:text "Vytautas Juozapaitis"}
+   {:text "Vytautas Kamblevičius"}
+   {:text "Vytautas Kernagis"}
+   {:text "Vytautas Rastenis"}
+   {:text "Zbignev Jedinskij"}
+   {:text "Zenonas Streikus"}
+   {:text "Česlav Olševski"}
+   {:text "Žygimantas Pavilionis"}])
